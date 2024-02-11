@@ -1,0 +1,81 @@
+.bg-container {
+  height: 100vh;
+  background-color: #ffffff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+.card-container {
+  background-color: #150b3e;
+  background-size: cover;
+  height: 700px;
+  width: 600px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.user-name-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.s-round-logo {
+  color: #150b3e;
+  font-size: 25px;
+  background-color: #c7d2fe;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  font-size: 15px;
+}
+.name {
+  align-self: center;
+  color: #c7d2fe;
+  padding-left: 12px;
+  font-size: 20px;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.style-balance {
+  color: #585076;
+  font-size: 20px;
+  font-weight: bold;
+}
+.total-amount {
+  color: #c7d2fe;
+  font-size: 40px;
+}
+.rupees {
+  color: #585076;
+  font-weight: bold;
+}
+.style-withdraw {
+  color: #c7d2fe;
+}
+.style-sum {
+  color: #585076;
+  font-weight: bold;
+}
+.button-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: auto;
+  flex-wrap: wrap;
+}
